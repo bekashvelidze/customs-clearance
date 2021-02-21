@@ -46,7 +46,7 @@ def calculate():
     excise = capacity * rate
 # Customs fee = 150 GEL, Expert assessment = 20 GEL, Customs declaration = 30 GEL, Licence plate fee = 72 GEL
     final_price = import_rate + excise + 150 + 20 + 30 + 72 + transit_days
-    print('Final price for your car import and Customs clearance is:', math.ceil(final_price))
+    print('Final price for your car import and Customs clearance is: ', math.ceil(final_price))
 
 
 calculate()
@@ -57,5 +57,5 @@ if reset == 'yes':
     calculate()
 else:
     time.sleep(1)
-    print('Exiting')
+    print('Exiting!')
     exit()
